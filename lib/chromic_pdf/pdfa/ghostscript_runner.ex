@@ -11,7 +11,7 @@ defmodule ChromicPDF.GhostscriptRunner do
     "-dBATCH",
     "-dNOPAUSE",
     "-dNOOUTERSAVE",
-    "-dCompatibilityLevel=1.4"
+    "-dCompatibilityLevel=1.7"
   ]
 
   @pdfwrite_default_args [
